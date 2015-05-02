@@ -54,39 +54,49 @@ body {
   .navbar-brand {
     line-height:0px;
   }
-  .headlinerheine {
+  .header-box {
+    width: 650px;
+    height: 100px;
+  }
+  .header-logo {
+    width:135xp;
+    height: 100px;
+    float:left;
+  }
+  .header-outerbox {
+    width: 395px;
+    height: 100px;
+    float:left;
+  }
+  .header-innerbox {
+    height: 75px;
+  }
+  .header-slogan {
+    height: 25px;
+    font-family: arlrdbd, sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #979797 !important;
+  }
+  .header-since {
+    height: 100px;
+    width: 120px;
+    float:left;
+    font-family: arlrdbd, sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #979797 !important;
+    padding-top: 30px;
+  }
+  .header-rheine {
     font-family: jersey;
     font-size: 45pt;
     color: #fff !important;
-    padding-left: 0px;
-    padding-bottom: 5px;
-    margin-top: 25px;
   }
-  .headlineraptors {
+  .header-raptors {
     font-family: avantgarde;
     font-size: 45pt;
     color: #7fcb35 !important;
-    padding-left: 0px;
-    margin-top: 25px;
-  }
-  .headlineslogan {
-    font-family: arlrdbd, sans-serif;
-    font-size: 11pt;
-    font-weight: bold;
-    color: #979797 !important;
-    float: none;
-    padding-left: 135px;
-  }
-  .headlinesince {
-    font-family: arlrdbd, sans-serif;
-    font-size: 11pt;
-    font-weight: bold;
-    color: #979797 !important;
-    float: left;
-    padding: 0px;
-    width: 100px;
-    line-height:20px;
-    margin-top: 15px;
   }
   .navbar-nav {
     float: right;
