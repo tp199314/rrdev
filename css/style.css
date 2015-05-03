@@ -51,6 +51,7 @@ body {
     border: 0px;
     border-bottom: 1px solid white;
     margin-bottom: 0px;
+    border-right: 5px solid #7fcb35;
   }
   .navbar-brand {
     line-height:0px;
@@ -106,7 +107,7 @@ body {
   }
   .navbar-nav li {
     height: 98px;
-    width: 150px;
+    width: 120px;
     margin-top: 1px;
     display: table-cell;
     border-bottom: 6px solid #2e2e2e;
@@ -159,8 +160,22 @@ body {
     float: left;
     border-right: 15px solid #797979;
   }
+  .bg31 {
+    background-color: #7fcb35;
+    height: 5px;
+    float: left;
+  }
+  .bg4 {
+    background-color: #2e2e2e;
+    height: 5px;
+    float: left;
+    border-right: 15px solid #797979;
+  }
   .content {
     background-color: #fff;
-    border: 1px solid transparent;
+    border-left: 1px solid #2e2e2e;
+  }
+  .right-border {
+    border-right: 5px solid #2e2e2e;
   }
 }
