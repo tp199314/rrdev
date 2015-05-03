@@ -13,8 +13,8 @@ body {
          url('../fonts/arlrdbd-webfont.svg#arial_rounded_mt_boldbold') format('svg');
     font-weight: normal;
     font-style: normal;
-
-}@font-face {
+}
+@font-face {
     font-family: 'avantgarde';
     src: url('../fonts/avantgarde-webfont.eot');
     src: url('../fonts/avantgarde-webfont.eot?#iefix') format('embedded-opentype'),
@@ -24,8 +24,8 @@ body {
          url('../fonts/avantgarde-webfont.svg#avantgarde_bk_btbook') format('svg');
     font-weight: normal;
     font-style: normal;
-
-}@font-face {
+}
+@font-face {
     font-family: 'jersey';
     src: url('../fonts/jersey-webfont.eot');
     src: url('../fonts/jersey-webfont.eot?#iefix') format('embedded-opentype'),
@@ -50,6 +50,7 @@ body {
     border-radius: 0px;
     border: 0px;
     border-bottom: 1px solid white;
+    margin-bottom: 0px;
   }
   .navbar-brand {
     line-height:0px;
@@ -104,7 +105,7 @@ body {
     display: table-row;
   }
   .navbar-nav li {
-    height: 96px;
+    height: 98px;
     width: 150px;
     margin-top: 1px;
     display: table-cell;
@@ -130,5 +131,29 @@ body {
   }
   .navbar-collapse {
     padding-right: 0px;
+  }
+  .bg0 {
+    background-color: #2e2e2e;
+    height: 10px;
+    border-left: 15px solid #797979;
+    border-right: 15px solid #797979;
+  }
+  .bg1 {
+    background-color: #2e2e2e;
+    height: 5px;
+    float: left;
+    border-left: 15px solid #797979;
+  }
+  .bg2 {
+    background-color: #797979;
+    height: 5px;
+    float: left;
+    border-right: 3px solid #2e2e2e;
+  }
+  .bg3 {
+    background-color: #7fcb35;
+    height: 5px;
+    float: left;
+    border-right: 15px solid #797979;
   }
 }
