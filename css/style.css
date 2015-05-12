@@ -37,6 +37,8 @@ body {
   font-style: normal;
 }
 /* media queries */
+
+/* xs */
 @media(max-width:767px) {
   .navbar {
     height: 100px;
@@ -173,6 +175,7 @@ body {
     border-right: 5px solid #2e2e2e;
   }
 }
+/* sm */
 @media(min-width:768px) and (max-width:991px) {
   .navbar {
     height: 100px;
@@ -187,7 +190,7 @@ body {
     line-height:0px;
   }
   .header-box {
-    width: 630px;
+    width: 150px;
     height: 100px;
   }
   .header-logo {
@@ -309,6 +312,7 @@ body {
     border-right: 5px solid #2e2e2e;
   }
 }
+/* md */
 @media(min-width:992px) and (max-width:1199px) {
   .navbar {
     height: 100px;
@@ -446,6 +450,7 @@ body {
     border-right: 5px solid #2e2e2e;
   }
 }
+/* lg */
 @media(min-width:1200px){
   .navbar {
     height: 100px;
