@@ -323,7 +323,7 @@ body {
     line-height:0px;
   }
   .header-box {
-    width: 630px;
+    width: 450px;
     height: 100px;
   }
   .header-logo {
@@ -335,6 +335,7 @@ body {
     width: 375px;
     height: 100px;
     float:left;
+    padding-left: 10px;
   }
   .header-innerbox {
     height: 75px;
