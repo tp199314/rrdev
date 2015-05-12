@@ -38,10 +38,412 @@ body {
 }
 /* media queries */
 @media(max-width:767px) {
+  .navbar {
+    height: 100px;
+    background-color: #2e2e2e;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+    border-right: 5px solid #7fcb35;
+  }
+  .navbar-brand {
+    line-height:0px;
+  }
+  .header-box {
+    width: 630px;
+    height: 100px;
+  }
+  .header-logo {
+    width:135xp;
+    height: 100px;
+    float:left;
+  }
+  .header-outerbox {
+    width: 375px;
+    height: 100px;
+    float:left;
+  }
+  .header-innerbox {
+    height: 75px;
+  }
+  .header-slogan {
+    height: 25px;
+    font-family: arlrdbd, sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #979797 !important;
+  }
+  .header-since {
+    height: 100px;
+    width: 120px;
+    float:left;
+    font-family: arlrdbd, sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #979797 !important;
+    padding-top: 30px;
+  }
+  .header-rheine {
+    font-family: jersey;
+    font-size: 45pt;
+    color: #fff !important;
+  }
+  .header-raptors {
+    font-family: avantgarde;
+    font-size: 45pt;
+    color: #7fcb35 !important;
+  }
+  .navbar-nav {
+    float: right;
+    height: 100px;
+    display: table-row;
+  }
+  .navbar-nav li {
+    height: 98px;
+    width: 120px;
+    margin-top: 1px;
+    display: table-cell;
+    border-bottom: 6px solid #2e2e2e;
+    border-left: 1px solid #262626;
+    border-top: 1px solid #2e2e2e;
+    border-right: 1px solid #2e2e2e;
+  }
+  .navbar-nav li a {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    color: #ffffff !important;
+    font-family: arlrdbd, sans-serif;
+    font-weight: bold;
+  }
+  .navbar-nav li:hover {
+    border-bottom: 6px solid #7fcb35;
+    border-top: 1px solid #262626;
+    border-left: 1px solid #262626;
+    border-right: 1px solid #2e2e2e;
+  }
+  .navbar-collapse {
+    padding-right: 0px;
+  }
+  .bg0 {
+    background-color: #2e2e2e;
+    height: 10px;
+    border-left: 15px solid #797979;
+    border-right: 15px solid #797979;
+  }
+  .bg1 {
+    background-color: #2e2e2e;
+    height: 5px;
+    float: left;
+    border-left: 15px solid #797979;
+  }
+  .bg2 {
+    background-color: #797979;
+    height: 5px;
+    float: left;
+    border-right: 3px solid #2e2e2e;
+  }
+  .bg3 {
+    background-color: #7fcb35;
+    height: 5px;
+    float: left;
+    border-right: 15px solid #797979;
+  }
+  .bg31 {
+    background-color: #7fcb35;
+    height: 5px;
+    float: left;
+  }
+  .bg4 {
+    background-color: #2e2e2e;
+    height: 5px;
+    float: left;
+    border-right: 15px solid #797979;
+  }
+  .content {
+    background-color: #fff;
+    border-left: 1px solid #2e2e2e;
+  }
+  .right-border {
+    border-right: 5px solid #2e2e2e;
+  }
 }
 @media(min-width:768px) and (max-width:991px) {
+  .navbar {
+    height: 100px;
+    background-color: #2e2e2e;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+    border-right: 5px solid #7fcb35;
+  }
+  .navbar-brand {
+    line-height:0px;
+  }
+  .header-box {
+    width: 630px;
+    height: 100px;
+  }
+  .header-logo {
+    width:135xp;
+    height: 100px;
+    float:left;
+  }
+  .header-outerbox {
+    width: 375px;
+    height: 100px;
+    float:left;
+  }
+  .header-innerbox {
+    height: 75px;
+  }
+  .header-slogan {
+    height: 25px;
+    font-family: arlrdbd, sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #979797 !important;
+  }
+  .header-since {
+    height: 100px;
+    width: 120px;
+    float:left;
+    font-family: arlrdbd, sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #979797 !important;
+    padding-top: 30px;
+  }
+  .header-rheine {
+    font-family: jersey;
+    font-size: 45pt;
+    color: #fff !important;
+  }
+  .header-raptors {
+    font-family: avantgarde;
+    font-size: 45pt;
+    color: #7fcb35 !important;
+  }
+  .navbar-nav {
+    float: right;
+    height: 100px;
+    display: table-row;
+  }
+  .navbar-nav li {
+    height: 98px;
+    width: 120px;
+    margin-top: 1px;
+    display: table-cell;
+    border-bottom: 6px solid #2e2e2e;
+    border-left: 1px solid #262626;
+    border-top: 1px solid #2e2e2e;
+    border-right: 1px solid #2e2e2e;
+  }
+  .navbar-nav li a {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    color: #ffffff !important;
+    font-family: arlrdbd, sans-serif;
+    font-weight: bold;
+  }
+  .navbar-nav li:hover {
+    border-bottom: 6px solid #7fcb35;
+    border-top: 1px solid #262626;
+    border-left: 1px solid #262626;
+    border-right: 1px solid #2e2e2e;
+  }
+  .navbar-collapse {
+    padding-right: 0px;
+  }
+  .bg0 {
+    background-color: #2e2e2e;
+    height: 10px;
+    border-left: 15px solid #797979;
+    border-right: 15px solid #797979;
+  }
+  .bg1 {
+    background-color: #2e2e2e;
+    height: 5px;
+    float: left;
+    border-left: 15px solid #797979;
+  }
+  .bg2 {
+    background-color: #797979;
+    height: 5px;
+    float: left;
+    border-right: 3px solid #2e2e2e;
+  }
+  .bg3 {
+    background-color: #7fcb35;
+    height: 5px;
+    float: left;
+    border-right: 15px solid #797979;
+  }
+  .bg31 {
+    background-color: #7fcb35;
+    height: 5px;
+    float: left;
+  }
+  .bg4 {
+    background-color: #2e2e2e;
+    height: 5px;
+    float: left;
+    border-right: 15px solid #797979;
+  }
+  .content {
+    background-color: #fff;
+    border-left: 1px solid #2e2e2e;
+  }
+  .right-border {
+    border-right: 5px solid #2e2e2e;
+  }
 }
 @media(min-width:992px) and (max-width:1199px) {
+  .navbar {
+    height: 100px;
+    background-color: #2e2e2e;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+    border-right: 5px solid #7fcb35;
+  }
+  .navbar-brand {
+    line-height:0px;
+  }
+  .header-box {
+    width: 630px;
+    height: 100px;
+  }
+  .header-logo {
+    width:135xp;
+    height: 100px;
+    float:left;
+  }
+  .header-outerbox {
+    width: 375px;
+    height: 100px;
+    float:left;
+  }
+  .header-innerbox {
+    height: 75px;
+  }
+  .header-slogan {
+    height: 25px;
+    font-family: arlrdbd, sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #979797 !important;
+  }
+  .header-since {
+    height: 100px;
+    width: 120px;
+    float:left;
+    font-family: arlrdbd, sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #979797 !important;
+    padding-top: 30px;
+  }
+  .header-rheine {
+    font-family: jersey;
+    font-size: 45pt;
+    color: #fff !important;
+  }
+  .header-raptors {
+    font-family: avantgarde;
+    font-size: 45pt;
+    color: #7fcb35 !important;
+  }
+  .navbar-nav {
+    float: right;
+    height: 100px;
+    display: table-row;
+  }
+  .navbar-nav li {
+    height: 98px;
+    width: 120px;
+    margin-top: 1px;
+    display: table-cell;
+    border-bottom: 6px solid #2e2e2e;
+    border-left: 1px solid #262626;
+    border-top: 1px solid #2e2e2e;
+    border-right: 1px solid #2e2e2e;
+  }
+  .navbar-nav li a {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    color: #ffffff !important;
+    font-family: arlrdbd, sans-serif;
+    font-weight: bold;
+  }
+  .navbar-nav li:hover {
+    border-bottom: 6px solid #7fcb35;
+    border-top: 1px solid #262626;
+    border-left: 1px solid #262626;
+    border-right: 1px solid #2e2e2e;
+  }
+  .navbar-collapse {
+    padding-right: 0px;
+  }
+  .bg0 {
+    background-color: #2e2e2e;
+    height: 10px;
+    border-left: 15px solid #797979;
+    border-right: 15px solid #797979;
+  }
+  .bg1 {
+    background-color: #2e2e2e;
+    height: 5px;
+    float: left;
+    border-left: 15px solid #797979;
+  }
+  .bg2 {
+    background-color: #797979;
+    height: 5px;
+    float: left;
+    border-right: 3px solid #2e2e2e;
+  }
+  .bg3 {
+    background-color: #7fcb35;
+    height: 5px;
+    float: left;
+    border-right: 15px solid #797979;
+  }
+  .bg31 {
+    background-color: #7fcb35;
+    height: 5px;
+    float: left;
+  }
+  .bg4 {
+    background-color: #2e2e2e;
+    height: 5px;
+    float: left;
+    border-right: 15px solid #797979;
+  }
+  .content {
+    background-color: #fff;
+    border-left: 1px solid #2e2e2e;
+  }
+  .right-border {
+    border-right: 5px solid #2e2e2e;
+  }
 }
 @media(min-width:1200px){
   .navbar {
